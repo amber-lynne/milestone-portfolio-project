@@ -1,0 +1,191 @@
+/*****BASE STYLES*****/
+body {
+	font-family: 'Muli';
+	color: black;
+}
+
+/*****GRID*****/
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+	text-align: center;
+}
+
+/*****HEADER SECTION****/
+header {
+	height: 820px;
+	background: url('../img/hero-image.jpg');
+	background-size: cover;
+	text-align: right;
+	margin: 0 auto;
+}
+
+header h1 {
+	padding-top: 100px;
+	padding-right: 10px;
+	padding-left: 200px;
+	font-size: 77px;
+	line-height: auto;
+	font-weight: bold;
+	margin: 0 auto;
+	color: #e8ecf7;
+}
+
+header span {
+	color: #7ec95e;
+}
+
+header h2 {
+	font-size: 55px;
+	line-height: auto;
+	font-weight: normal;
+	color: #e8ecf7;
+}
+
+/*****PORTFOLIO SECTION*****/
+#portfolio {
+	height: 950px;
+}
+
+#portfolio h2 {
+	text-align: center;
+	font-size: 46px;
+	margin: 0 auto;
+	padding: 45px 0;
+}
+#portfolio img {
+	border: 3px solid #287775;
+}
+
+#portfolio img#jubilee-img {
+	height: 350px;
+	width: 550px;
+	margin-bottom: 15px;
+}
+
+#portfolio img#rogue-img {
+	height: 350px;
+	width: 550px;
+}
+
+#portfolio .right-section-top {
+	height: 350px;
+	width: 550px;
+	color: #287775;
+	margin-bottom: 21px;
+}
+
+#portfolio .right-section-bottom {
+	height: 350px;
+	width: 550px;
+	color: #287775;
+}
+
+#portfolio h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+#portfolio h4 {
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0 auto;
+}
+
+#portfolio p {
+	font-size: 24px;
+}
+
+/*****ABOUT SECTION*****/
+#about {
+	height: 640px;
+	background: #287775;
+}
+
+#about h2 {
+	text-align: center;
+	font-size: 46px;
+	margin: 0 auto;
+	padding: 45px 0;
+}
+
+#about img {
+	height: 344px;
+	width: 558px;
+	border: 12px solid white;
+}
+
+#about h3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #e8ecf7;
+	margin: 0 45px 25px 100px;
+}
+
+#about p {
+	font-size: 24px;
+	color: #e8ecf7;
+	margin: 0 45px 25px 100px;
+}
+
+/*****CONTACT SECTION*****/
+#contact {
+	height: 450px;
+	background: white;
+}
+
+#contact h2 {
+	text-align: center;
+	font-size: 46px;
+	margin: 0 auto;
+	padding: 45px 0;
+}
+
+#contact h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0 auto;
+	color: #287775;
+}
+
+#contact p {
+	font-size: 24px;
+	color: #287775;
+}
+
+#contact ul {
+	padding-right: 30px;
+}
+#contact ul li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+#contact a {
+	color: #7ec95e;
+}
+
+/*****FOOTER*****/
+footer {
+	background: #246b5f;
+	padding: 3px 0;
+	margin: 0 auto;
+}
+
+footer h2 {
+	font-size: 24px;
+	text-align: center;
+	color: #e8ecf7;
+	font-weight: normal;
+}
