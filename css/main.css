@@ -23,8 +23,8 @@ body {
 
 /*****HEADER SECTION****/
 header {
-	height: 820px;
-	background: url('../img/hero-image.jpg');
+	height: 750px;
+	background: url('../img/keyboard-photo.jpg');
 	background-size: cover;
 	text-align: right;
 	margin: 0 auto;
@@ -35,21 +35,19 @@ header h1 {
 	padding-right: 10px;
 	padding-left: 200px;
 	font-size: 77px;
-	line-height: auto;
 	font-weight: bold;
 	margin: 0 auto;
-	color: #e8ecf7;
+	color: #003333;
 }
 
 header span {
-	color: #7ec95e;
+	font-family: 'Dancing Script', cursive;
 }
 
 header h2 {
 	font-size: 55px;
-	line-height: auto;
 	font-weight: normal;
-	color: #e8ecf7;
+	color: #006666;
 }
 
 /*****PORTFOLIO SECTION*****/
